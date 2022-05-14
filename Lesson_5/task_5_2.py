@@ -1,0 +1,5 @@
+n = int(input('Введите значение n: '))
+odd_nums_gen = (n for n in range(1, n + 1, 2))
+print(next(odd_nums_gen))
+print(next(odd_nums_gen))
+print(next(odd_nums_gen))
